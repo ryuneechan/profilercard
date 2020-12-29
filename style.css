@@ -1,0 +1,127 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans";
+    font-size: 15px;
+}
+hr {
+    border: 1px solid rgba(105, 102, 102, 0.144);
+    margin-top: 40%;
+    margin-bottom: 0;
+}
+h3, strong {
+    color:hsl(229, 23%, 23%);
+}
+footer {
+    position: absolute;
+    left: 35%;
+    top: 87%;
+}
+p {
+    color: hsl(0, 0%, 59%);
+}
+
+/* Background Section */
+.bg-top {
+    position: absolute;
+    top: -50%;
+    left: -27%;
+}
+.bg-bottom {
+    position: fixed;
+    bottom: -75%;
+    right: -23%;
+}
+.bg-topcard {
+    border-radius: 7% 7% 0 0;
+}
+
+/* Profile and Profile-body Wrapper */
+.card-wrapper {
+    border-radius: 6%;
+    background-color: #fff;
+    right: 37%;
+    top: 20%;
+    position: absolute;
+    text-align: center;
+    box-shadow: 5px 5px 15px hsl(227, 10%, 46%);
+}
+
+/* Profile Section (avatar, name, age) */
+.avatar {
+    border: 5px solid #fff;
+    border-radius: 100%;
+}
+.profile {
+    position: absolute;
+    top: 23%;
+    left: 37%;
+}
+
+/* Wrapper for followers, likes & photos Section */
+.connection {
+    font-size: 12px;
+}
+.followers-section {
+    position: absolute; 
+    left: 15%;
+}
+.likey-section {
+   display: inline-block;
+   margin-left: 3%;
+}
+.photo-section {
+    display: inline-block;
+    position: absolute;
+    right: 15%;
+}
+
+@media screen and (max-width: 1194px) {
+    .bg-top {
+        top: -77%;
+        left: -37%;
+    }
+    .bg-bottom {
+        bottom: -87%;
+        right: -43%;
+    }
+    .card-wrapper {
+        right: 35%;
+    }
+    footer {
+        left: 33%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bg-top {
+        top: -77%;
+        left: -57%;
+    }
+    .bg-bottom {
+        bottom: -87%;
+        right: -63%;
+    }
+    .card-wrapper {
+        right: 30%;
+    }
+    footer {
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 671px) {
+    .bg-top {
+        top: -97%;
+        left: -100%;
+    }
+    .bg-bottom {
+        bottom: -100%;
+        right: -95%;
+    }
+    .card-wrapper {
+        right: 20%;
+    }
+    footer {
+        left: 15%;
+    }
+}
